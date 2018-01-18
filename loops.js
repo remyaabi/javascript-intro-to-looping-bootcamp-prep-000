@@ -25,7 +25,7 @@ function doWhileLoop(stringArray){
   do{
     console.log(stringArray.pop());
   }while(stringArray.length > 0 && maybeTrue())
-  return 
+  return stringArray;
 }
 
 function maybeTrue() {
