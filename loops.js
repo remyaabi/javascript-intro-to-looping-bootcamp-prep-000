@@ -5,6 +5,7 @@ function forLoop(stringArray){
        let s = i === (0 || 1) ? `I am ${i} strange loop.` : `I am ${i} strange loops.`
        stringArray.push(s);
    }
+   return stringArray;
   
 }
 function whileLoop(n){
