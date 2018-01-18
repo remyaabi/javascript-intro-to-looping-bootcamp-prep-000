@@ -2,7 +2,7 @@ var stringArray=[];
 var n=10;
 function forLoop(stringArray){
    for(var i=0; i<25; i++){
-       let s = i === 0 || 1 ? "I am ${i} strange loop." : `"I am ${i} strange loop${i === 0 ? '' : 's'}."`
+       let s = i === 0 || 1 ? `I am ${i} strange loop.` : `I am ${i} strange loops.`
        stringArray.push(s);
    }
   
